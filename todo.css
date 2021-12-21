@@ -1,0 +1,221 @@
+#main{
+    
+    width: 68%;
+    margin-left: 15%;
+    margin-top: 3%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.opa{
+    opacity: 0.5;
+}
+.link{
+    text-decoration: none;
+    color:coral;
+}
+.cont{
+    margin-left: 15%;
+}
+#new{
+    border: 2px solid red;
+    height: 120px;
+    width:25%;
+    margin-left:-45% ;
+    margin-top:10%;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    color: red;
+    border-radius: 12px;
+    box-shadow: 8px 6px  #e2e1e1;
+   
+    
+}
+#add{
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+    border-radius: 26%;
+    width: 10%;
+    position: absolute;
+    top: 68%;
+    left: 30%;
+}
+#close{
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+    border-radius: 26%;
+    width: 10%;
+    position: absolute;
+    top: 68%;
+    left: 60%;
+}
+button{
+    border: 1px solid tomato;
+}
+.child{
+    height: 200px;
+    width: 190px;
+    padding: 19px;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 10px;
+    margin-left: 8%;
+
+}
+
+#itembox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 88%;
+    height:500px;
+
+    
+}
+#hrl{
+    width: 190px;
+    margin-top: 10%;
+    height: 10px;
+    border: 1px solid black;
+}
+
+.newbox{
+    height: 213px;
+    width: 190px;
+    padding: 19px;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 10px;
+    margin-left: 8%;
+
+}
+.line{
+    margin-top: 14%;
+    width: 227px;
+    margin-left: -10%;
+}
+.taskbox{
+    border: 1px solid black;
+    width: 189px;
+    height: 135px;
+}
+/* .aicon{
+    position: absolute;
+    top: 42%;
+    left:20%;
+}
+.dicon{
+    position: absolute;
+    top: 42%;
+    left:22%;
+} */
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.iconbox{
+    /* border: 1px solid black; */
+    margin-top: 7%;
+    width: 27px;
+    height: 19px;
+    margin-left: 60%;
+}
+.iconbox1{
+    /* border: 1px solid black; */
+    margin-top: -10%;
+    width: 27px;
+    height: 20px;
+    margin-left: 80%;
+}
+.div{
+    height: 20px;
+    width: 190px;
+    
+    border: 1px solid black;
+
+}
+.new1{
+    border: 2px solid red;
+    height: 120px;
+    width:25%;
+    margin-left:-45% ;
+    margin-top:10%;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    color: red;
+    border-radius: 12px;
+    box-shadow: 8px 6px  #e2e1e1;
+   
+    
+}
+
+.new2{
+    border: 2px solid red;
+    height: 120px;
+    width:25%;
+    margin-left:-45% ;
+    margin-top:10%;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    color: red;
+    border-radius: 12px;
+    box-shadow: 8px 6px  #e2e1e1;
+   
+    
+}
+#plus{
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+    border-radius: 26%;
+    width: 10%;
+    position: absolute;
+    top: 68%;
+    left: 30%;
+
+}
+#newcard{
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.headbox{
+    border: 1px solid black;
+    width:150px;
+    color: red;
+}
+.bbt{
+    border: 1px solid black;
+    width:150px;
+}
+.addsym{
+    border: 1px solid black;
+    width: 150px;
+}
+.card1{
+    height: 213px;
+    width: 190px;
+    padding: 19px;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 10px;
+    margin-left: 8%;
+
+}
+#container{
+    background-color: white;
+    
+}
+#maincard{
+    margin-left: 30%;
+}
